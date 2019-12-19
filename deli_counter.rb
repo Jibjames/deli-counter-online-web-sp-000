@@ -4,12 +4,13 @@ katz_deli = []
 def line(deli)
   if deli.size == 0
     puts "The line is currently empty."
-  else do
+  elsif deli.size > 0
     puts "The line is currently: "
       deli.each_with_index do |name, i|
         puts "#{i+1}. #{name} "
       end
-    end
+  else
+    puts "no"
   end
 end
 

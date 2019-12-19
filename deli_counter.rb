@@ -19,5 +19,3 @@ def take_a_number(deli, name)
   deli << name
   puts "Welcome, #{name}. You are number #{deli.size} in line."
 end
-
-

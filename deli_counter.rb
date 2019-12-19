@@ -8,7 +8,7 @@ def line(deli)
     deli = deli.each_with_index.map do |name, i|
       "#{i+1}. #{name}"
     end
-    puts "The line is currently: #{deli.join}"
+    puts "The line is currently: #{deli.join(" ")}"
     #  deli.each_with_index do |name, i|
     #    puts " #{i+1}. #{name}"
     #  end

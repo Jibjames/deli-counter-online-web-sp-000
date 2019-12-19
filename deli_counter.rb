@@ -7,7 +7,7 @@ def line(deli)
   else
     puts "The line is currently: #{  deli.each_with_index do |name, i|
       "#{i+1}. #{name} "}"
-    
+
     end
   end
 end

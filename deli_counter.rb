@@ -7,6 +7,7 @@ def line(deli)
   else
     deli.join(", ")
     puts deli
+  end
 end
 
 def take_a_number(deli, name)

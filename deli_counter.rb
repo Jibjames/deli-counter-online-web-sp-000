@@ -4,7 +4,7 @@ katz_deli = []
 def line(deli)
   if deli.size == 0
     puts "The line is currently empty."
-  else
+  elsif deli.size > 0
     deli.each do |name|
       puts name
     end

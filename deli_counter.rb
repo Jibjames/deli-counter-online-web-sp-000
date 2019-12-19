@@ -5,10 +5,14 @@ def line(deli)
   if deli.size == 0
     puts "The line is currently empty."
   else
-    ( puts "The line is currently:"
-      deli.each_with_index do |name, i|
-        puts " #{i+1}. #{name}"
-      end  )
+    deli.each_with_index.map do |name, i|
+      "#{i+1}. #{name}"
+    end
+    deli.join
+    puts "The line is currently: #{deli}"
+    #  deli.each_with_index do |name, i|
+    #    puts " #{i+1}. #{name}"
+    #  end
   end
 end
 
